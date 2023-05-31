@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국립박물관단지 - 국가기록박물관</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contents.css">    
+
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+</head>
+<body>
+
+<header>
+    <!--gnb_wrap-->
+    <div class="gnb_wrap" style="display: none;">
+        <h1 class="logo"><a href="#"><span>logo</span></a></h1>
+        <strong class="hidden">상단메뉴</strong>
+        <div class="menu">
+            <div class="gnb_bg" style="height: 235px;"><span></span></div>
+            <ul>
+                <li>국립박물관단지소개</li>
+                <li>안내</li>
+                <li>알림소식</li>
+            </ul>
+        </div>
+        <div class="etc">
+            <a href="#" class="sitemap_btn"><span>사이트맵</span></a>
+        </div>
+    </div><!--//gnb_wrap-->
+
+    <!--visual_wrap-->
+    <div class="visual_wrap">
+        <div class="sub_visual" style="display: none;">
+            <div class="sub_visual_bg"></div>
+            <div class="sub_visual_layout">
+                <h2>국가기록 박물관</h2>
+                <ul class="location">
+                    <li><i class="ico home"><span class="skip">home</span></i></li>
+                    <li>안내</li>
+                    <li>박물관소개</li>
+                    <li>국가기록박물관</li>
+                </ul>
+            </div>
+        </div>
+    </div><!--//visual_wrap-->
+</header>
+
+<!--container-->
+<div class="container">
+    <!--intro-->
+    <div class="article_box">
+        <div class="title_wrap type2 trigger">
+            <h3>
+                <span class="small-hd">국립박물관단지</span>
+                <span><span class="mint">국가기록</span>박물관</span>
+            </h3>
+        </div>
+
+        <div class="item_wrap trigger">
+             <div class="img_sub_intro"><img src="images/contents/airview_img_5.png" alt="국가기록박물관 전경"/></div>
+        </div>
+        <div class="item_wrap type2">
+            <div class="intro_txt trigger col-box__l">
+                <p class="flex-column">
+                    <strong>국가기록박물관은,</strong>
+                    국가기록박물관을 통해 도시의 스카이라인과 전통적인 한국의 정원을 경험하도록 하였다. 산을 한국의 전통적인 묘사방식으로 벽면에 드러내고, 진입마당에 계획한 나무를 통해 건축과 땅 사이의 경계 없는 풍경안에서 관람객을 머물도록 하였다. 또한, 진입광장에서 바로보면 국가기록박물관이 하나의 큰 조형물로 보이도록 하였다.
+                </p>
+            </div>
+            <div class="btn_wrap trigger col-box__r">
+                <a href="#" class="btn tx">시설안내 바로가기<i class="arr small"></i></a>               
+            </div>
+        </div>
+    </div><!--//intro-->
+
+    <!--info-->
+    <div class="article_box map_info trigger">
+        <div class="inner">
+            <div class="img_right"><img src="images/contents/panorama_img_5.png" alt="국가기록박물관 외부 전경"/></div>
+            <div class="item_wrap map">
+                <img src="images/contents/map_img_5.svg" alt="국가기록박물관 위치를 이미지로 제공하고 있습니다. 국가기록박물관은 국립박물관단지 내에 있으며 세종특별시 세종동을 동서남북으로 나누어 서남쪽에 위치하고 박물관단지 주변으로 오른쪽에 세종중앙공원이 있고 왼쪽에 세종호수공원이 있습니다."/>
+            </div>
+        </div>
+    </div><!--//info-->
+
+    <!--contents bg-->
+    <div class="shape pur trigger col-box__r"><img src="images/contents/shape_mint.svg"></div><!--//contents bg-->
+</div><!--//container-->
+
+
+<footer>
+    
+</footer>
+
+
+<script>
+    const boxList = document.querySelectorAll('.trigger');
+    const options = {
+        root: null, // viewport
+        rootMargin: "5%",
+        threshold: 0.25,  // 50%가 viewport에 들어와 있어야 callback 실행
+    }
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            } else {
+                entry.target.classList.remove('active');
+            }
+        });
+    }, options);
+
+    // 반복문을 돌려 모든 DOM에 적용
+    boxList.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

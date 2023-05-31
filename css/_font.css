@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+/*에스코어드림*/
+@font-face {
+  font-family: 'S-Core';
+  font-weight:100;
+  src: url('../font/scdream/S-CoreDream-1Thin.eot');
+  src: url('../font/scdream/S-CoreDream-1Thin.eot?#iefix') format('embedded-opentype'),
+       url('../font/scdream/S-CoreDream-1Thin.svg#S-CoreDream-1Thin') format('svg'),
+       url('../font/scdream/S-CoreDream-1Thin.ttf') format('truetype'),
+       url('../font/scdream/S-CoreDream-1Thin.woff') format('woff'),
+       url('../font/scdream/S-CoreDream-1Thin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'S-Core';
+  font-weight:200;
+  src: url('../font/scdream/S-CoreDream-2ExtraLight.eot');
+  src: url('../font/scdream/S-CoreDream-2ExtraLight.eot?#iefix') format('embedded-opentype'),
+       url('../font/scdream/S-CoreDream-2ExtraLight.svg#S-CoreDream-2ExtraLight') format('svg'),
+       url('../font/scdream/S-CoreDream-2ExtraLight.ttf') format('truetype'),
+       url('../font/scdream/S-CoreDream-2ExtraLight.woff') format('woff'),
+       url('../font/scdream/S-CoreDream-2ExtraLight.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'S-Core';
+  font-weight:300;
+  src: url('../font/scdream/S-CoreDream-3Light.eot');
+  src: url('../font/scdream/S-CoreDream-3Light.eot?#iefix') format('embedded-opentype'),
+       url('../font/scdream/S-CoreDream-3Light.svg#S-CoreDream-3Light') format('svg'),
+       url('../font/scdream/S-CoreDream-3Light.ttf') format('truetype'),
+       url('../font/scdream/S-CoreDream-3Light.woff') format('woff'),
+       url('../font/scdream/S-CoreDream-3Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'S-Core';
+  font-weight:400;
+  src: url('../font/scdream/S-CoreDream-4Regular.eot');
+  src: url('../font/scdream/S-CoreDream-4Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/scdream/S-CoreDream-4Regular.svg#S-CoreDream-4Regular') format('svg'),
+       url('../font/scdream/S-CoreDream-4Regular.ttf') format('truetype'),
+       url('../font/scdream/S-CoreDream-4Regular.woff') format('woff'),
+       url('../font/scdream/S-CoreDream-4Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'S-Core';
+  font-weight:500;
+  src: url('../font/scdream/S-CoreDream-5Medium.eot');
+  src: url('../font/scdream/S-CoreDream-5Medium.eot?#iefix') format('embedded-opentype'),
+       url('../font/scdream/S-CoreDream-5Medium.svg#S-CoreDream-5Medium') format('svg'),
+       url('../font/scdream/S-CoreDream-5Medium.ttf') format('truetype'),
+       url('../font/scdream/S-CoreDream-5Medium.woff') format('woff'),
+       url('../font/scdream/S-CoreDream-5Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'S-Core';
+  font-weight:600;
+  src: url('../font/scdream/S-CoreDream-6Bold.eot');
+  src: url('../font/scdream/S-CoreDream-6Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/scdream/S-CoreDream-6Bold.svg#S-CoreDream-6Bold') format('svg'),
+       url('../font/scdream/S-CoreDream-6Bold.ttf') format('truetype'),
+       url('../font/scdream/S-CoreDream-6Bold.woff') format('woff'),
+       url('../font/scdream/S-CoreDream-6Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'S-Core';
+  font-weight:700;
+  src: url('../font/scdream/S-CoreDream-7ExtraBold.eot');
+  src: url('../font/scdream/S-CoreDream-7ExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('../font/scdream/S-CoreDream-7ExtraBold.svg#S-CoreDream-7ExtraBold') format('svg'),
+       url('../font/scdream/S-CoreDream-7ExtraBold.ttf') format('truetype'),
+       url('../font/scdream/S-CoreDream-7ExtraBold.woff') format('woff'),
+       url('../font/scdream/S-CoreDream-7ExtraBold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'S-Core';
+  font-weight:800;
+  src: url('../font/scdream/S-CoreDream-8Heavy.eot');
+  src: url('../font/scdream/S-CoreDream-8Heavy.eot?#iefix') format('embedded-opentype'),
+       url('../font/scdream/S-CoreDream-8Heavy.svg#S-CoreDream-8Heavy') format('svg'),
+       url('../font/scdream/S-CoreDream-8Heavy.ttf') format('truetype'),
+       url('../font/scdream/S-CoreDream-8Heavy.woff') format('woff'),
+       url('../font/scdream/S-CoreDream-8Heavy.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'S-Core';
+  font-weight:900;
+  src: url('../font/scdream/S-CoreDream-9Black.eot');
+  src: url('../font/scdream/S-CoreDream-9Black.eot?#iefix') format('embedded-opentype'),
+       url('../font/scdream/S-CoreDream-9Black.svg#S-CoreDream-9Black') format('svg'),
+       url('../font/scdream/S-CoreDream-9Black.ttf') format('truetype'),
+       url('../font/scdream/S-CoreDream-9Black.woff') format('woff'),
+       url('../font/scdream/S-CoreDream-9Black.woff2') format('woff2');
+}
+
+/*프리텐다드*/
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 900;
+    font-display: swap;
+    src: url('../woff2/Pretendard-Black.woff2') format('woff2'), url('../woff/Pretendard-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 800;
+    font-display: swap;
+    src: url('../woff2/Pretendard-ExtraBold.woff2') format('woff2'), url('../woff/Pretendard-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-display: swap;
+    src: url('../woff2/Pretendard-Bold.woff2') format('woff2'), url('../woff/Pretendard-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-display: swap;
+    src: url('../woff2/Pretendard-SemiBold.woff2') format('woff2'), url('../woff/Pretendard-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-display: swap;
+    src: url('../woff2/Pretendard-Medium.woff2') format('woff2'), url('../woff/Pretendard-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-display: swap;
+    src: url('../woff2/Pretendard-Regular.woff2') format('woff2'), url('../woff/Pretendard-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 300;
+    font-display: swap;
+    src: url('../woff2/Pretendard-Light.woff2') format('woff2'), url('../woff/Pretendard-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 200;
+    font-display: swap;
+    src: url('../woff2/Pretendard-ExtraLight.woff2') format('woff2'), url('../woff/Pretendard-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 100;
+    font-display: swap;
+    src: url('../woff2/Pretendard-Thin.woff2') format('woff2'), url('../woff/Pretendard-Thin.woff') format('woff');
+}
+
+
+/*망고체*/
+@font-face {
+    font-family: 'SF_IceMango';
+    src: url('/iceMango/SF_IceMango.woff') format('embedded-opentype');
+    font-weight: normal;
+    font-style: swap;
+}
+
+/*스포카산스네오*/
+@font-face {
+    font-family: 'spoqa';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.eot');
+    src: url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff2') format('woff2'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff') format('woff'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'spoqa';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Light.eot');
+    src: url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Light.eot?#iefix') format('embedded-opentype'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff2') format('woff2'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff') format('woff'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'spoqa';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.eot');
+    src: url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff2') format('woff2'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff') format('woff'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'spoqa';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.eot');
+    src: url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff2') format('woff2'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff') format('woff'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'spoqa';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.eot');
+    src: url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff2') format('woff2'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff') format('woff'),
+        url('../SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.ttf') format('truetype');
+}

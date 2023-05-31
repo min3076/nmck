@@ -1,0 +1,43 @@
+@charset "UTF-8";
+:root {
+	/* Primary - color */
+	--c_blue : #00A6E2;
+	--c_yellow : #F9B000;
+	--c_pink : #E82D8A;
+	--c_mint : #00ADB1;  
+	--c_purple : #BA66A5;
+
+	/* Primary - color - more */
+	--c_blue_m : #232D5C;
+	--c_mint_m : #00838A;
+
+	/* Primary - color - 20 */
+	--c_pink_2 : #FFD6DC ;
+
+	/* Primary - color - 10 */
+	--c_pink_1 : #FCE8EB;
+
+	/* bg / line - color */
+	--bg_box1 : #F8F8F8;
+	--bg_box2 : #F9F9F9;
+
+	--f_scd:'S-Core';
+	--f_prt:'Pretendard';
+	--f_mag:'SF_IceMango';
+	--f_spc:'spoqa';
+	--ani_time:.3s;
+	--load_time:3s;
+}
+
+.c_blue {color:var(--c_blue);} /* 적용예시 */
+
+.f36 {font-size:36px; line-height: 1;font-weight:800} /* h2 */
+.f24 {font-size: 24px; line-height: 1;font-weight:800} /* h3 */
+.f20 {font-size: 20px; line-height: 1;font-weight:800}
+.f16 {font-size: 16px; line-height: 1;font-weight:800}
+.f15 {font-size: 15px; line-height: 1;font-weight:800}
+
+.f16_r {font-size: 16px; line-height: 1;font-weight:400}
+.f15_r {font-size: 15px; line-height: 1;font-weight:400}
+
+.f15_p {font-size: 15px; line-height:150%;font-weight:400}
